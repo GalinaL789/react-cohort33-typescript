@@ -9,18 +9,19 @@ export const InputContainer = styled.div`
 `;
 
 export const InputLabel = styled.label`
-  font-size: 16px;
+  font-size: 22px;
   color: #6f6f6f;
 `;
 
 export const InputComponent = styled.input`
-  width: 100%;
+  width: 499px;
   height: 50px;
-  padding: 12px;
+  color: white;
+  padding-left: 100px;
   outline: none;
   border: 1px solid black;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 23px;
   background-color: ${({ disabled }) =>
     disabled ? "lightgrey" : "transparent"};
 

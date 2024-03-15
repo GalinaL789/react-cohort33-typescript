@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Weather from "pages/Weather/Weather";
 
 import GlobalStyles from "styles/GlobalStyles";
 import Layout from "components/Layout/Layout";
@@ -26,38 +27,14 @@ import Homework22 from "homeworks/Homework22/Homework22";
 import Homework23 from "homeworks/Homework23/Homework23";
 import Homework24 from "homeworks/Homework24/Homework24";
 import Homework25 from "homeworks/Homework25/Homework25";
+import Homework27 from "homeworks/Homework27/Homework27";
+import { WeatherWrapper } from "pages/Weather/styles";
+import { WeatherErrorWrapper } from "pages/Weather/components/WeatherError/styles";
+import WeatherError from "pages/Weather/components/WeatherError/WeatherError";
 
 function App() {
   return (
-    <BrowserRouter>
-      <GlobalStyles />
-      {/* <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/users" element={<Users />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/clients" element={<Clients />} />
-          <Route path="/clients/apple" element={<Apple />} />
-          <Route path="/clients/facebook" element={<Facebook />} />
-          <Route path="/clients/sega" element={<Sega />} />
-          <Route path="*" element="Page Not Found" />
-        </Routes>
-      </Layout> */}
-      {/* <Lesson20 /> */}
-      {/* <Lesson21 /> */}
-      {/* <Lesson22 /> */}
-      {/* <Lesson23 /> */}
-      {/* <Lesson24 /> */}
-      {/* <Lesson25 /> */}
-      <Lesson27 />
-      {/* <Homework20 /> */}
-      {/* <Homework21 /> */}
-      {/* <Homework22 /> */}
-      {/* <Homework23 /> */}
-      {/* <Homework24 /> */}
-      {/* <Homework25 /> */}
-    </BrowserRouter>
+      <Weather/>
   );
 }
-
 export default App;

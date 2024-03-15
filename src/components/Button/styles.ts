@@ -5,12 +5,12 @@ interface ButtonComponentProps {
 }
 
 export const ButtonComponent = styled.button<ButtonComponentProps>`
-  width: 100%;
+  width: 250px;
   height: 70px;
   outline: none;
   border: none;
   border-radius: 4px;
-  padding: 20px;
+  padding-left: 20px;
   /* background-color: ${({ isRed, disabled }) =>
     isRed ? "red" : disabled ? "grey" : "#1f27f5"}; */
   background-color: ${({ isRed, disabled }) => {
