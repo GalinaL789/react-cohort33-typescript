@@ -10,4 +10,5 @@ export interface InputProps {
   value: string;
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
   error?: undefined | string;
+  isWhite?: boolean;
 }

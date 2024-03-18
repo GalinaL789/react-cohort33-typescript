@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-
 export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@ export const InputLabel = styled.label`
 `;
 
 export const InputComponent = styled.input`
-  width: 499px;
+  width: 300px;
   height: 50px;
   color: white;
   padding-left: 100px;

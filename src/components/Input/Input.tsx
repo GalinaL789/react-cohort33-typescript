@@ -16,6 +16,7 @@ function Input({
   value,
   onChange,
   error,
+  isWhite=true,
 }: InputProps) {
   return (
     <InputContainer>

@@ -1,7 +1,7 @@
-import BlogManagement from "./components/BlogManagement/BlogManagement";
+import Counter from "components/Counter/Counter";
+function Homework29()
+{
 
-function Homework27() {
-  return <BlogManagement />;
 }
 
-export default Homework27;
+export default Homework29;

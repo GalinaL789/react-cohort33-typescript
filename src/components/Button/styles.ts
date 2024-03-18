@@ -6,7 +6,7 @@ interface ButtonComponentProps {
 
 export const ButtonComponent = styled.button<ButtonComponentProps>`
   width: 250px;
-  height: 70px;
+  height: 50px;
   outline: none;
   border: none;
   border-radius: 4px;

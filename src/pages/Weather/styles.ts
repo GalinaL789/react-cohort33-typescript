@@ -16,7 +16,7 @@ export const Header = styled.header`
   justify-content: center;
   height: 80px;
   padding: 20px;
-  color: dark-blue;
+  background-color:darkblue;
 
 `;
 
@@ -29,7 +29,8 @@ export const Main = styled.main`
 `;
 export const InputWrapper=styled.div`
 display:flex;
-gap:20px;
+align-items: center;
+justify-content: center;
 `;
 
 export const LineTitle= styled.div`
@@ -39,4 +40,9 @@ export const LineTitle= styled.div`
 
 `;
 
- 
+export const Loading= styled.p`
+color: white;
+font-size: 12px;
+font-weight:bold;
+
+`;
